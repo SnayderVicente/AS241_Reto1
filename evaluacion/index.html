@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardín del Alma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Jardín del Alma</h1>
+        <p>Ofrecemos una variedad de flores para cada ocasión.</p>
+    </header>
+    
+    <section>
+        <h2>Productos Destacados</h2>
+        <table>
+            <tr>
+                <th>Nombre de la Flor</th>
+                <th>Descripción </th>
+                <th>Imagen de referencia</th>
+            </tr>
+            <tr>
+                <td><strong>Rosa</strong></td>
+                <td>
+                    La rosa es quizás una de las flores más reconocidas y <em>populares en todo el mundo.</em> Con sus pétalos suaves y delicados, la rosa viene en una amplia gama de colores, desde el clásico rojo pasión hasta el delicado rosa, el vibrante amarillo y el puro blanco. Además de su belleza visual, la rosa también es apreciada por su aroma dulce y distintivo. Se ha asociado durante mucho tiempo con el amor, la pasión y el romance, lo que la convierte en una opción popular para regalos románticos y ocasiones especiales como bodas y aniversarios.
+                </td>
+                <td><img src="image/rosa.jpeg" alt="Rosa" /></td>
+            </tr>
+            <tr>
+                <td><strong>Lirio</strong></td>
+                <td>
+                    El lirio es una <em>flor elegante y majestuosa </em>que se destaca por sus tallos altos y sus flores grandes y llamativas. Con sus pétalos acampanados y sus colores vibrantes, como el blanco puro, el rosa suave y el amarillo brillante, el lirio agrega un toque de gracia y sofisticación a cualquier arreglo floral. Además de su belleza estética, el lirio también tiene un aroma distintivo y encantador. Se asocia comúnmente con la pureza, la inocencia y la renovación, lo que lo convierte en una opción popular para celebrar ocasiones como nacimientos, bautizos y bodas.
+
+                </td>
+                <td><img src="image/lirio.jpeg" alt="Lirio" /></td>
+            </tr>
+            <tr>
+                <td><strong>Tulipán</strong></td>
+                <td>
+                    El tulipán es una flor primaveral encantadora conocida por su forma única y sus brillantes colores. Con sus tallos delgados y sus pétalos en forma de copa, el tulipán viene en una amplia variedad de tonos, desde el rojo intenso y el amarillo brillante hasta el morado profundo y el blanco puro. Esta diversidad de colores y formas hace que los tulipanes sean una opción versátil para arreglos florales y decoraciones. Además de su belleza visual, el tulipán también es apreciado por su elegancia simple y su simbolismo de <em>amor y felicidad</em>, lo que lo convierte en una opción popular para una amplia gama de ocasiones, desde cumpleaños y aniversarios hasta eventos formales y celebraciones de primavera
+                </td>
+                <td><img src="image/tulipan.jpeg" alt="Tulipán" /></td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Video sobre Flores</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/5djR1oO_kwc?si=ibvIrhgxgFON6T4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    
+    <section>
+        <h2>Formulario de Contacto a la Floreria</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="date">Selecciona una fecha:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="product">Seleccione un producto:</label>
+                <select id="product" name="product">
+                    <option value="">-- Selecciona un producto --</option>
+                    <option value="rosa">Rosa</option>
+                    <option value="lirio">Lirio</option>
+                    <option value="tulipan">Tulipán</option>
+                </select>
+            </div>
+            
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    
+    <footer>
+        <p> Jardin del Alma - Snayder Daniel Vicente Conca</p>
+    </footer>
+</body>
+</html>
